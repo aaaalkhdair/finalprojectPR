@@ -18,7 +18,7 @@ import {
 } from '@nestjs/common';
 import { AppService } from './app.service.js';
 import { ClientProxy } from '@nestjs/microservices';
-import type { CreatUser, Login, UpdateUser } from './interface/interface.js';
+import { CreatUser, Login, UpdateUser } from './interface/interface.js';
 import { AuthGuard } from './auth.guard.js';
 import { TripsGateway } from './trips.gateway.js';
 import { firstValueFrom } from 'rxjs';

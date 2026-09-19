@@ -1,0 +1,22 @@
+# Compiled output
+dist
+**/dist
+
+# Dependencies
+node_modules
+**/node_modules
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+*.tsbuildinfo
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.log
